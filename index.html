@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta lang="en-US" dir="ltr">
+		<title>Daniyal Iqbal</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="indexcss.css">
+
+
+		<script type="text/javascript">
+
+			function menu_expand(){
+				document.getElementById('dropdown').classList.toggle('active');
+			}
+
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<span class="menubar">
+
+					<div class="list">
+						<ul>
+							<li><a href="#heads">HOME</a></li>
+							<li><a href="#abouts">ABOUT ME</a></li>
+							<li><a href="Daniyal resume.pdf" target=".blank">RESUME</a></li>
+							<li><a href="#projects">PROJECTS</a></li>
+							<li><a href="#skills">SKILLS</a></li>
+							<li><a href="#cont">CONTACT</a></li>
+						</ul>
+					</div>
+					<div class="togglemenu">
+						<button type="button" data-toggle="collapse" onclick="menu_expand()">
+	      					<i class="fa fa-bars"></i>
+	      				</button>
+	    			</div>
+				</span>
+			</header>
+
+		<div class="menubars">
+			<div id="dropdown" class="dropdowns">
+				<ul>
+					<li onclick="menu_expand()"><a href="#heads">HOME</a></li>
+					<li onclick="menu_expand()"><a href="#abouts">ABOUT ME</a></li>
+					<li onclick="menu_expand()"><a href="Daniyal resume.pdf" target=".blank">RESUME</a></li>
+					<li onclick="menu_expand()"><a href="#projects">PROJECTS</a></li>
+					<li onclick="menu_expand()"><a href="#skills">SKILLS</a></li>
+					<li onclick="menu_expand()"><a href="#cont">CONTACT</a></li>
+				</ul>
+	    	</div>
+		</div>
+
+
+		<section id="heads" class="heading">
+			<h1>Daniyal Iqbal</h1>
+			<hr class="hor">
+			<p><i>
+				An aspiring Software Engineer
+			</i></p>
+			<ul>
+				<li><a href="mailto:daniyaliqbal_2024@depauw.edu" class="fa fa-envelope-o"></a></li>
+				<li><a href="https://www.linkedin.com/in/daniyaliqbal2024/" class="fa fa-linkedin"></a></li>
+				<li><a href="https://github.com/daniyaliqbal2024" class="fa fa-github"></a></li>
+				<li><a href="https://www.instagram.com/daniyal.iqbal99/" class="fa fa-instagram"></a></li>
+				<li><a href="https://www.facebook.com/daniyal.iqbal.73" class="fa fa-facebook"></a></li>
+			</ul>
+		</section>
+
+		<section id="abouts" class="aboutme">
+			<h2>About Me</h2>
+			<p>
+				I am a rising junior at DePauw University in Greencastle, Indiana.
+				I am pursuing Bachelors degrees in Computer Science
+				and Mathematics. I love to tackle problems involving critical thinking. In my free time I can be found playing scrabble or watching movies. <br><br>
+				I am originally from Karachi, Pakistan. Apart from academics, I am fond of travelling and playing soccer.
+			</p>
+		</section>
+
+
+		<section id="projects" class="project">
+
+			<h2>Projects</h2>
+
+			<div class="prowrapper">
+				<div class="cwrap" onclick="">
+					<div class="pro1">
+						<div class="inner">
+							<h4>Instagram Clone </h4>
+						</div>
+						<div class="content">
+							<p><i>
+								Currently developing an Instagram Clone on Android Studio using java and AWS EC2.
+							</i></p>
+						</div>
+					</div>
+				</div>
+				<div class="cwrap" onclick="">
+					<div class="pro2">
+						<div class="inner">
+							<h4>C++ Virus Tracking App</h4>
+						</div>
+						<div class="content">
+							<p><i>
+								C++ Application for users to track recent physical contacts by processing movement reports using CSV files.
+								Application output reports of infected patients and their recent contacts to warn them and mitigate the spread of Covid-19.
+							</i></p>
+						</div>
+					</div>
+				</div>
+				<div class="cwrap" onclick="">
+					<div class="pro3">
+						<div class="inner">
+							<h4>Vehicle Repair Shop</h4>
+						</div>
+						<div class="content">
+							<p><i>
+								Hired by a company to work on its vehicle repair logging app (Repair Shop) that allows a user to keep track of
+the vehicles they own as well as the repairs for each vehicle.Implemented Code using the CRD (Create, Read and Delete) operation of the local SQLite Database the Android
+uses on the user’s device
+							</i></p>
+						</div>
+					</div>
+				</div>
+				<div class="cwrap" onclick="">
+					<div class="pro4">
+						<div class="inner">
+							<h4>Zork Game </h4>
+						</div>
+						<div class="content">
+							<p><i>
+							Java Game program that has similar attributes and behavioristics to the Zork Computer Game as it allows users to track recent physical objects in their virtual worlds. This program utilizes the concepts of Inheritance, Polymorphism, and Composite Design Patterns.
+							</i></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills" class="skill">
+			<h2>Skills</h2>
+			<div class="container">
+				<div class="skill1">
+					<img src="logos/c++.jpg" alt="c++">
+				</div>
+				<div class="skill2">
+					<img src="logos/jlogo.png" alt="java">
+				</div>
+				<div class="skill3">
+					<img src="logos/python.jpg" alt="python">
+				</div>
+				<div class="skill4">
+					<img src="logos/js.jpg" alt="javascript">
+				</div>
+				<div class="skill5">
+					<img src="logos/css.jpg" alt="css">
+				</div>
+				<div class="skill6">
+					<img src="logos/html.jpg" alt="html">
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<section class="awards">
+			<h2>Leadership Experiences and Awards</h2>
+			<div class="awrapper">
+				<div>
+					<h4>Runners up at the World Youth Scrabble Championship</h4>
+					<p><i>
+						Part of the 17 players team from Pakistan that came Runners up at the World Youth Scrabble Championship held in Lille, France in 2016.
+					</i></p>
+				</div>
+				<div>
+					<h4>Chief Operating Officer at Grand Citizens</h4>
+					<p><i>
+						Initiated and led Iftaar Drives: the semi-weekly serving of food annually to 10,000+ people in Ramadan by coordinating with municipal bodies, donors, departments, as well as delegating up to 100 volunteers
+					</i></p>
+				</div>
+				<div>
+					<h4>Marketing Manager at Nixor Log X</h4>
+					<p><i>
+						Using Adobe Photoshop and Premier Pro to maintain the social media presence of Nixor Log X
+					</i></p>
+				</div>
+				<div><h4>Operations Manager at Jaag Naujawan</h4></div>
+				<div><h4>Volunteer at Nixor Hospital</h4></div>
+				<div><h4>DePauw University Dean's Honors List 2020</h4></div>
+				<div><h4>DePauw University Dean's Honors List 2021</h4></div>
+				<div><h4>Nixor College Dean's List</h4></div>
+			</div>
+		</section>
+
+		<footer id="cont" class="foot">
+			<h2>Contact</h2>
+
+			<a href="mailto:daniyaliqbal_2024@depauw.edu"><u>Email: daniyaliqbal_2024@depauw.edu</u></a>
+			<ul>
+				<li><a href="mailto:daniyaliqbal_2024@depauw.edu" class="fa fa-envelope-o"></a></li>
+				<li><a href="https://www.linkedin.com/in/daniyaliqbal2024/" class="fa fa-linkedin"></a></li>
+				<li><a href="https://github.com/daniyaliqbal2024" class="fa fa-github"></a></li>
+				<li><a href="https://www.instagram.com/daniyal.iqbal99/" class="fa fa-instagram"></a></li>
+				<li><a href="https://www.facebook.com/daniyal.iqbal.73" class="fa fa-facebook"></a></li>
+			</ul>
+		</footer>
+
+	</body>
+
+</html>
